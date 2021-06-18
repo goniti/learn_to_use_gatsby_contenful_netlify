@@ -58,8 +58,6 @@ typings/
 
 # dotenv environment variables file
 .env
-.env.production
-.env.development
 
 # build folder
 public
