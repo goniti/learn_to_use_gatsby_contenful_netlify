@@ -1,14 +1,18 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
+import styled from "styled-components"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+
+const TitleMain = styled.h1`
+  font-size: 2.2rem;
+`
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
+    <TitleMain>Hi people</TitleMain>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
